@@ -1,2 +1,2 @@
-javac -classpath "hadoop-3.4.0/share/hadoop/common/hadoop-common-3.4.0.jar:hadoop-3.4.0/share/hadoop/mapreduce/hadoop-mapreduce-client-core-3.4.0.jar:hadoop-3.4.0/share/hadoop/mapreduce/hadoop-mapreduce-client-common-3.4.0.jar:hadoop-3.4.0/share/hadoop/common/lib/*" -d SourceCode/compiled_out/ SourceCode/WordCount.java
-jar -cvf units.jar -C SourceCode/compiled_out/ .
+javac -classpath "${HADOOP_HOME}/share/hadoop/common/hadoop-common-3.4.0.jar:${HADOOP_HOME}/share/hadoop/mapreduce/hadoop-mapreduce-client-core-3.4.0.jar:${HADOOP_HOME}/share/hadoop/mapreduce/hadoop-mapreduce-client-common-3.4.0.jar:${HADOOP_HOME}/share/hadoop/common/lib/*" -d compiled_out/ Wordcount.java
+jar -cvf WordCount.jar -C compiled_out/ .
