@@ -1,0 +1,4 @@
+Hadoop is a framework for distributed storage and processing.
+Hadoop allows for big data processing using MapReduce.
+Big data technologies like Hadoop and Spark are widely used.
+Word count is a common example in Hadoop tutorials.
